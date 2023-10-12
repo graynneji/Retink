@@ -1,0 +1,23 @@
+.SearchContainer {
+    display: flex;
+    align-items: center;
+    border: .1rem solid #ccc;
+    border-radius: .5rem;
+    max-width: 100%;
+    /* padding: .5rem 3rem .5rem 3rem; */
+    background-color: #fff;
+  }
+  
+  input[type="search"] {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  span {
+    padding: 5px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,8 @@
+.Menu {
+    background-color: #ebeaef;
+    grid-column: 2/-1;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 0 4rem;
+  }
