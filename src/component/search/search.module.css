@@ -3,9 +3,10 @@
     align-items: center;
     border: .1rem solid #ccc;
     border-radius: .5rem;
-    max-width: 100%;
-    /* padding: .5rem 3rem .5rem 3rem; */
+    /* max-width: 100%; */
+    padding: .5rem 1rem .5rem 1rem;
     background-color: #fff;
+    width: 55rem;
   }
   
   input[type="search"] {
@@ -20,4 +21,9 @@
     padding: 5px;
     cursor: pointer;
   }
-  
+  .IconRightContainer{
+    /* justify-self: end; */
+    color: #999;
+    align-self: center;
+    justify-self: end;
+  }

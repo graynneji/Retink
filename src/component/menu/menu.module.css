@@ -1,8 +1,63 @@
 .Menu {
+    /* background-color: #444; */
     background-color: #ebeaef;
     grid-column: 2/-1;
     display: flex;
     align-items: center;
-    gap: 1.2rem;
-    padding: 0 4rem;
+    /* gap: 1.2rem; */
+    justify-content: space-between;
+    padding: 4rem;
+   
+  
   }
+.CreateContent{
+    background-color: #754DE8;
+    }
+    .CoinContainer{
+      display: flex;
+      border-radius: 5rem;
+      background-color: #F1EDFD;
+      width: 7.8rem;
+      height: 3.9rem;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1.8rem;
+    }
+    .Coin{
+      width: 2.4rem;
+      height: 2.4rem;
+      color: #463D61
+      ;
+      font-weight: 600;
+    }
+    .CoinContainer p{
+      font-size: 1.8rem;
+      color: #463D61;
+      font-weight: 500;
+      
+    }
+    .ProfilePic{
+      width: 4.0rem;
+      height: 4.0rem;
+      overflow: hidden;
+    }
+    .Right{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #D4C8F8;
+      padding: 2rem 4rem;
+      border: .1rem solid #D4C8F8;
+      gap: 4rem;
+      place-self: end;
+    }
+    .LeftMenu{
+      display: flex;
+      gap: 3rem;
+    }
+    .RightMenu{
+      display: flex;
+      align-items: center;
+      gap: 4rem;
+    }

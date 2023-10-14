@@ -2,6 +2,61 @@
     background-color: #F1EDFD;
     grid-row: 1/-1;
     color: white;
-    /* padding: 24px, 15px, 24px, 15px;s */
+    /* padding: 2.4rem, 1.5rem, 2.4rem, 1.5rem; */
     padding: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    width: 10.6rem;
+  }
+  .Upper{
+    display: flex;
+flex-direction: column;    
+gap: 4.5rem;
+justify-content: center;
+align-items: center;
+/* margin: 0 auto; */
+ }
+ .Lower{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    color: #463d61ae;
+
+ }
+  .HomeContainer{
+    padding: 2.4rem;
+    width: 6.8rem;
+    background-color: #EAE4FC;
+    height: 7.0rem;
+    border-radius: 1.0rem;
+  }
+  .HomeIcon{
+    color: #5E3EBA;
+    /* padding: 2.4rem; */
+    border-radius: 1.2rem;
+    width: 2.0rem;
+    height: 2.2rem;
+  }
+  .WindowIcon{
+    color: #463D61;
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+  .Settings{
+    width: 2.3rem;
+    height: 2.4rem;
+    color: #463D61;
+  }
+  .LogoutIcon{
+    width: 2.3rem;
+    height: 2.3rem;
+    color: #463D61;
+  }
+  .Logo{
+    width: 37.92rem;
+    height: 3.988rem;
   }

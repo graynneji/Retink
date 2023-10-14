@@ -1,0 +1,16 @@
+.section{
+    padding: 1rem;
+}
+.MostPopular{
+text-align: left;
+line-height: 2.88rem;
+}
+.MostPopular h2{
+    font-size: 2.4rem;
+font-weight: 600;
+}
+.MostPopular p{
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
